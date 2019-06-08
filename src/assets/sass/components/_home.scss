@@ -1,3 +1,27 @@
 .home-view-container{
     color: $blue;
 }
+
+.logos-container{
+    border: 1px solid rgb(172, 172, 172);
+    width: 23%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+
+    img{
+        width: 50%;
+    }
+}
+
+.games-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.individual-scores{
+    list-style: none;
+}

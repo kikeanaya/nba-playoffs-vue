@@ -1,7 +1,8 @@
 <template>
   <div>
     <ul>
-      <li v-for="game in games">
+      <li class="individual-scores" v-for="(game, index) in games" :key="`game-${index}`">
+        Game {{index +1}}:
         {{game.home_team.abbreviation}}
         {{game.home_team_score}}
         {{game.visitor_team.abbreviation}}
@@ -28,8 +29,8 @@ export default {
   components: {
     Chart
   },
-   mounted () {
-     this.loaded = false
+  mounted () {
+    this.loaded = false
 
     switch (this.$route.params.id) {
       case 'lac-gsw': {
