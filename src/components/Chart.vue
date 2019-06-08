@@ -15,7 +15,7 @@ export default ({
       teamTwoScores: [],
       teamOneName: '',
       teamTwoName: '',
-      dates: []
+      labels: []
     }
   },
   mounted () {
@@ -34,7 +34,7 @@ export default ({
     this.teamTwoName = this.games[0].visitor_team.abbreviation
 
     for(let i = 0; i<this.games.length; i++){
-      this.dates.push(this.games[i].date.slice(0,10))
+      this.labels.push(`Game ${i+1}`)
       if(this.games[i].home_team.abbreviation === this.teamOneName){
         this.teamOneScores.push(this.games[i].home_team_score)
         this.teamTwoScores.push(this.games[i].visitor_team_score)
@@ -43,9 +43,9 @@ export default ({
         this.teamTwoScores.push(this.games[i].home_team_score)
       }
     }  
-    
+
     this.renderChart({
-      labels: this.dates, // partidos
+      labels: this.labels, // partidos
       datasets: [
         {
           label: this.teamOneName, // equipo

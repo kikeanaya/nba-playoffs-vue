@@ -1,6 +1,5 @@
 <template>
   <div class="home-view-container">
-    <h1>NBA Playoffs 2019</h1>
     <div class="games-container">
       <div class="logos-container">
         <router-link :to="`/games/lac-gsw`">
