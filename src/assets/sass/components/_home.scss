@@ -20,4 +20,15 @@
 
 .individual-scores{
     list-style: none;
+    border-radius: 10px;
+    background-color: #1d428a;
+    color: white;
+    width: 100px;
+    padding: 10px;
+}
+
+.scores-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

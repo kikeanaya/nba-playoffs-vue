@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ul>
+    <ul class="scores-list">
       <li class="individual-scores" v-for="(game, index) in games" :key="`game-${index}`">
         Game {{index +1}}:
         {{game.home_team.abbreviation}}
