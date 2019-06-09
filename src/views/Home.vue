@@ -3,57 +3,57 @@
     <div class="games-container">
       <div class="logos-container">
         <router-link :to="`/games/lac-gsw`">
-          <img src="@/assets/teams-logos/clippers.png"/>
-          <img src="@/assets/teams-logos/warriors.png"/>
+          <img src="@/assets/teams-logos/LAC.png"/>
+          <img src="@/assets/teams-logos/GSW.png"/>
         </router-link>
       </div>
 
       <div class="logos-container">
         <router-link :to="`/games/uta-hou`">
-          <img src="@/assets/teams-logos/jazz.jpg"/>
-          <img src="@/assets/teams-logos/rockets.png"/>
+          <img src="@/assets/teams-logos/UTA.png"/>
+          <img src="@/assets/teams-logos/HOU.png"/>
         </router-link>
       </div>
 
       <div class="logos-container">
         <router-link :to="`/games/por-okc`">
-          <img src="@/assets/teams-logos/portland.png"/>
-          <img src="@/assets/teams-logos/thunder.jpeg"/>
+          <img src="@/assets/teams-logos/POR.png"/>
+          <img src="@/assets/teams-logos/OKC.png"/>
         </router-link>
       </div>
 
       <div class="logos-container">
         <router-link :to="`/games/den-sas`">
-          <img src="@/assets/teams-logos/nuggets.png"/>
-          <img src="@/assets/teams-logos/spurs.jpg"/>
+          <img src="@/assets/teams-logos/DEN.png"/>
+          <img src="@/assets/teams-logos/SAS.png"/>
         </router-link>
       </div>
 
       <div class="logos-container">
         <router-link :to="`/games/mil-det`">
-          <img src="@/assets/teams-logos/bucks.jpeg"/>
-          <img src="@/assets/teams-logos/pistons.png"/>
+          <img src="@/assets/teams-logos/MIL.png"/>
+          <img src="@/assets/teams-logos/DET.png"/>
         </router-link>
       </div>
 
       <div class="logos-container">
         <router-link :to="`/games/bos-ind`">
-          <img src="@/assets/teams-logos/celtics.png"/>
-          <img src="@/assets/teams-logos/pacers.png"/>
+          <img src="@/assets/teams-logos/BOS.png"/>
+          <img src="@/assets/teams-logos/IND.png"/>
         </router-link>
       </div>
 
       <div class="logos-container">
         <router-link :to="`/games/phi-bkn`">
-          <img src="@/assets/teams-logos/76ers.png"/>
-          <img src="@/assets/teams-logos/nets.jpeg"/>
+          <img src="@/assets/teams-logos/PHI.png"/>
+          <img src="@/assets/teams-logos/BKN.png"/>
         </router-link>
       </div>
 
       <div class="logos-container">
         <router-link :to="`/games/tor-orl`">
-          <img src="@/assets/teams-logos/toronto.jpg"/>
-          <img src="@/assets/teams-logos/magic.png"/>
+          <img src="@/assets/teams-logos/TOR.png"/>
+          <img src="@/assets/teams-logos/ORL.png"/>
         </router-link>
       </div>
     </div>

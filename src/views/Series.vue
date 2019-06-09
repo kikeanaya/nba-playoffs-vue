@@ -1,5 +1,11 @@
 <template>
   <div>
+    <div class="logos-container">
+      <img v-if="games.length > 0" :src="require(`../assets/teams-logos/${games[0].home_team.abbreviation}.png`)"/>
+      <img v-if="games.length > 0" :src="require(`../assets/teams-logos/${games[0].visitor_team.abbreviation}.png`)"/>
+      
+    </div>
+    
     <ul class="scores-list">
       <li class="individual-scores" v-for="(game, index) in games" :key="`game-${index}`">
         Game {{index +1}}:
