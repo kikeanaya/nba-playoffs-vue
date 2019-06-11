@@ -1,9 +1,8 @@
 <template>
   <div>
-    <div class="logos-container">
+    <div class="logos-in-detailed">
       <img v-if="games.length > 0" :src="require(`../assets/teams-logos/${games[0].home_team.abbreviation}.png`)"/>
       <img v-if="games.length > 0" :src="require(`../assets/teams-logos/${games[0].visitor_team.abbreviation}.png`)"/>
-      
     </div>
     
     <ul class="scores-list">
