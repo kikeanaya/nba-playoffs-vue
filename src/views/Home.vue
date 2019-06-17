@@ -58,6 +58,64 @@
       </div>
     </div>
 
+    Cuartos
+
+    <div class="games-container">
+      <div class="logos-container">
+        <router-link :to="`/games/mil-bos`">
+          <img src="@/assets/teams-logos/MIL.png"/>
+          <img src="@/assets/teams-logos/BOS.png"/>
+        </router-link>
+      </div>
+
+      <div class="logos-container">
+        <router-link :to="`/games/phi-tor`">
+          <img src="@/assets/teams-logos/PHI.png"/>
+          <img src="@/assets/teams-logos/TOR.png"/>
+        </router-link>
+      </div>
+
+      <div class="logos-container">
+        <router-link :to="`/games/gsw-hou`">
+          <img src="@/assets/teams-logos/GSW.png"/>
+          <img src="@/assets/teams-logos/HOU.png"/>
+        </router-link>
+      </div>
+
+      <div class="logos-container">
+        <router-link :to="`/games/por-dev`">
+          <img src="@/assets/teams-logos/POR.png"/>
+          <img src="@/assets/teams-logos/DEN.png"/>
+        </router-link>
+      </div>
+    </div>
+
+    Semis
+    <div class="games-container">
+      <div class="logos-container">
+        <router-link :to="`/games/mil-tor`">
+          <img src="@/assets/teams-logos/MIL.png"/>
+          <img src="@/assets/teams-logos/TOR.png"/>
+        </router-link>
+      </div>
+      <div class="logos-container">
+        <router-link :to="`/games/gsw-por`">
+          <img src="@/assets/teams-logos/GSW.png"/>
+          <img src="@/assets/teams-logos/POR.png"/>
+        </router-link>
+      </div>
+    </div>
+
+    Finals
+    <div class="games-container">
+      <div class="logos-container">
+        <router-link :to="`/games/gsw-tor`">
+          <img src="@/assets/teams-logos/GSW.png"/>
+          <img src="@/assets/teams-logos/TOR.png"/>
+        </router-link>
+      </div>
+    </div>
+
   </div>
 </template>
 

@@ -94,6 +94,55 @@ export default {
           .then(this.loaded = true)
         break
       }
+      case 'mil-bos': {
+        fetch(`https://www.balldontlie.io/api/v1/games?team_ids[]=2&start_date=2019-04-28&end_date=2019-05-09`)
+          .then(res => res.json())
+          .then(myJson => { this.games = myJson.data })
+          .then(this.loaded = true)
+        break
+      }
+      case 'phi-tor': {
+        fetch(`https://www.balldontlie.io/api/v1/games?team_ids[]=28&start_date=2019-04-27&end_date=2019-05-12`)
+          .then(res => res.json())
+          .then(myJson => { this.games = myJson.data })
+          .then(this.loaded = true)
+        break
+      }
+      case 'gsw-hou': {
+        fetch(`https://www.balldontlie.io/api/v1/games?team_ids[]=11&start_date=2019-04-28&end_date=2019-05-10`)
+          .then(res => res.json())
+          .then(myJson => { this.games = myJson.data })
+          .then(this.loaded = true)
+        break
+      }
+      case 'por-dev': {
+        fetch(`https://www.balldontlie.io/api/v1/games?team_ids[]=9&start_date=2019-04-29&end_date=2019-05-12`)
+          .then(res => res.json())
+          .then(myJson => { this.games = myJson.data })
+          .then(this.loaded = true)
+        break
+      }
+      case 'mil-tor': {
+        fetch(`https://www.balldontlie.io/api/v1/games?team_ids[]=28&start_date=2019-05-15&end_date=2019-05-25`)
+          .then(res => res.json())
+          .then(myJson => { this.games = myJson.data })
+          .then(this.loaded = true)
+        break
+      }
+      case 'gsw-por': {
+        fetch(`https://www.balldontlie.io/api/v1/games?team_ids[]=25&start_date=2019-05-14&end_date=2019-05-20`)
+          .then(res => res.json())
+          .then(myJson => { this.games = myJson.data })
+          .then(this.loaded = true)
+        break
+      }
+      case 'gsw-tor': {
+        fetch(`https://www.balldontlie.io/api/v1/games?team_ids[]=10&start_date=2019-05-30&end_date=2019-06-13`)
+          .then(res => res.json())
+          .then(myJson => { this.games = myJson.data })
+          .then(this.loaded = true)
+        break
+      }
     }
   }
 }
