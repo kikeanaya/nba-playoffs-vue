@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/" id="home-icon">Home</router-link>
+      <router-link to="/" >
+        <img id="home-icon" src="@/assets/home.svg"/>
+    </router-link>
     </div>
     <b-container>
       <router-view/>

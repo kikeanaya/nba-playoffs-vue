@@ -1,5 +1,21 @@
 <template>
-    <div class="games-container">
+    <div class="main-container">
+      <div class="conferences-titles">
+        <h2>WEST</h2>
+        <h2>EAST</h2>
+      </div>
+
+      <div class="stages">
+        <h3>ROUND 1</h3>
+        <h3>SEMIFINALS</h3>
+        <h3>CONFERENCE FINALS</h3>
+        <h2>FINALS</h2>
+        <h3>CONFERENCE FINALS</h3>
+        <h3>SEMIFINALS</h3>
+        <h3>ROUND 1</h3>
+      </div>
+
+      <div class="games-container">
       <div class="quarter-finals">
         <div class="logos-container">
           <router-link :to="`/games/lac-gsw`">
@@ -118,6 +134,8 @@
         </router-link>
       </div>
     </div>
+          </div>
+
   </div>
 </template>
 
